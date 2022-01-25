@@ -20,27 +20,26 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-0">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">MyCLOCK</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand mx-2" href="#">MyCLOCK</a>
+                <button class="navbar-toggler" type="button" data-trigger="#main_nav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                <div class="navbar-collapse" id="main_nav">
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="About.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  active" aria-current="page" href="Date.html">Date</a>
+                            <a class="nav-link active" aria-current="page" href="Date.html">Date</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="Time.html">Time</a>
                         </li>
-
                     </ul>
 
                 </div>
@@ -55,7 +54,8 @@
                 <h1 class="fw-light text-secondary">Today's Date: <span id="date" class="text-dark"></span></h1>
                 <p class="lead text-muted">Have a nice Day.</p>
                 <p>
-                    <button href="#demo" class="btn btn-outline-primary border-primary border-5 rounded-pill" data-toggle="collapse">Show Me Day</button>
+                    <button href="#demo" class="btn btn-outline-primary border-primary border-5 rounded-pill"
+                        data-toggle="collapse">Show Me Day</button>
                 <div id="demo" class="collapse fs-1">
                     </p>
                 </div>
@@ -81,20 +81,29 @@
 
     </script>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark mt-auto mb-0">
+    <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark mt-auto mb-0">
         <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <span class="text-muted">© 2022 Mahesh Motale, Inc</span>
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="text-muted">© 2022 Mahesh Motale, Inc</span>
         </div>
-    
+
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#twitter"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#instagram"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#facebook"></use>
+                    </svg></a></li>
         </ul>
-      </footer>
+    </footer>
 
 
 </body>
